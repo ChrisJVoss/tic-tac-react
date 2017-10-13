@@ -4,7 +4,8 @@
   "description": "Relearning react with the help of the react website tutorial.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,14 @@
   },
   "homepage": "https://github.com/ChrisJVoss/tic-tac-react#readme",
   "dependencies": {
+    "express": "^4.16.2",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babelify": "^7.3.0"
   }
 }
