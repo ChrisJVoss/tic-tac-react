@@ -65,3 +65,8 @@ ReactDOM.render(
   <Game />,
   document.getElementById('root')
 );
+
+class Board extends React.Component {
+  renderSquare(i) {
+    return <Square value={i} />;
+  }
